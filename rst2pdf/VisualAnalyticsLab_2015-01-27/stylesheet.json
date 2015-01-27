@@ -1,0 +1,114 @@
+{
+    "pageSetup" : {
+        "firstTemplate": "coverPage",
+        "width": "11in",
+        "height": "8.5in",
+        "margin-top": "1cm",
+        "margin-bottom": "1cm",
+        "margin-left": "3cm",
+        "margin-right": "3cm",
+        "spacing-header": "2cm",
+        "spacing-footer": "1cm"
+        
+    },
+
+    "pageTemplates" : {
+        "justFooter": {
+            "frames": [
+                ["0cm", "0cm", "100%", "100%"]
+            ],
+            "showHeader" : false,
+            "showFooter" : true
+        },
+        "lastPage": {
+            "frames": [
+                ["2.2cm", "0cm", "100%", "85%"]
+            ],
+            "showHeader": true,
+            "showFooter": false
+        },
+        "blackPage": {
+            "frames": [
+                ["0cm", "0cm", "100%", "100%"]
+            ],
+            "showHeader": false,
+            "showFooter": false,
+            "background": "images/blackLetter.png"
+        }
+    },
+
+    "fontsAlias" : {
+        "stdFont": "Arial Narrow",
+        "stdBold": "Arial Unicode",
+        "stdItalic": "Arial Narrow Italic",
+        "stdBoldItalic": "Arial Narrow Bold Italic",
+        "stdMono": "Arial Unicode"
+    },
+
+    "styles": [
+        ["normal" , {
+        "fontSize": 22,
+        "alignment": "left"
+        }],
+
+        ["bullet-list-smaller" , {
+        "parent": "bodytext",   
+        "fontSize": 12
+        }],
+
+        ["whitebreak" , {
+        "fontSize": 24,
+        "spaceAfter": 16,
+        "textColor": "white"
+        }],
+
+        ["title" , {
+        "fontSize": 42,
+        "spaceAfter": 42,
+        "alignment": "left",
+        "textColor": "red"
+        }],
+
+        ["titlecentered" , {
+        "parent": "title",
+        "fontSize": 42,
+        "spaceBefore": 25,
+        "spaceAfter": 46,
+        "alignment": "center",
+        "textColor": "red"
+        }],
+
+        ["subtitle" , {
+        "parent": "title",
+        "fontSize": 50,
+        "spaceAfter": -2,
+        "textColor": "black"
+        }],
+
+        ["heading1" , {
+        "fontSize": 36
+        }],
+
+        ["footer" , {
+        "fontSize": 16,
+        "font": "stdMono",
+        "textColor": "red"
+        }],
+
+        ["header" , {
+        "fontSize": 20,
+        "font": "stdMono",
+        "alignment": "center",
+        "textColor": "black"
+        }]
+    ]
+}
+
+
+
+
+
+
+
+
+

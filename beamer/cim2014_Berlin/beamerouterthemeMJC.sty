@@ -1,0 +1,23 @@
+\mode<presentation>
+
+% Frame title
+\defbeamertemplate*{frametitle}{MJC}[1][]
+{
+\vskip0cm%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2cm]{frametitle} 
+  \begin{tikzpicture}
+  \useasboundingbox[fill=orange](0,0) rectangle(\the\paperwidth,2);
+  %\fill[orange] (0,0) rectangle(2.95,1.2);
+  %\fill[orange] (3.05,0) rectangle(\the\paperwidth,1.2);
+   \ifx\insertframesubtitle\@empty%
+    %\centering
+      {\node[anchor=west, white,font=\large] at (1.0,0.81){\insertframetitle};}
+      \else%
+      {\node[anchor= west, white,font=\large] at (1.0,1.01){\insertframetitle};%
+       \node[anchor= west, white,font=\small] at (1.0,0.61){\insertframesubtitle};}%
+      \fi
+  \end{tikzpicture}
+  \end{beamercolorbox}
+}
+
+\mode<all>

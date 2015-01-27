@@ -1,0 +1,41 @@
+\mode<presentation>
+
+\setbeamertemplate{items}[square]
+\setbeamertemplate{sections/subsections in toc}[square]
+
+\setbeamertemplate{background}{
+
+%\iffalse % block comment out
+  \begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=orange] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=black] (0,2) rectangle (\the\paperwidth,\the\paperheight);
+  %\fill[color=orange] (0,0) rectangle(2.95,1.9);
+  %\fill[color=blue!50!cyan!80] (3.05,0) rectangle(\the\paperwidth,1.9);
+  \ifnum\thepage>1\relax%
+   \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+   \fi
+  \end{tikzpicture}
+  %\fi
+}
+
+% Title page
+\defbeamertemplate*{title page}{MJC}[1][]
+{ 
+   \vskip3cm
+    \begin{beamercolorbox}[wd=18cm,leftskip=1.2cm,sep=8pt,#1]{title page header}
+      \usebeamerfont{title}\inserttitle\par%
+    \end{beamercolorbox}%
+    \vskip3.75cm%
+    \begin{beamercolorbox}[wd=15cm,leftskip=2cm,#1]{author}
+      \usebeamerfont{author}\insertauthor%
+    \end{beamercolorbox}
+     \vskip0.2cm%
+    \begin{beamercolorbox}[wd=15cm,leftskip=2cm,#1]{date}
+      \usebeamerfont{author}\insertdate%
+    \end{beamercolorbox}
+  \vfill
+}
+
+\mode
+<all>

@@ -1,0 +1,43 @@
+\mode<presentation>
+
+% Title page
+\defbeamertemplate*{title page}{MJC}[1][]
+{ 
+   \vskip3cm
+    \begin{beamercolorbox}[wd=18cm,leftskip=2cm,sep=8pt,#1]{title page header}
+      \usebeamerfont{title}\inserttitle\par%
+    \end{beamercolorbox}%
+    \vskip1.75cm%3.5cm
+    \begin{beamercolorbox}[wd=18cm,leftskip=2.35cm,#1]{author}
+    \usebeamerfont{author}\insertauthor\\%
+    %\vskip0.2cm%
+    \usebeamerfont{author}\insertdate\\%
+    \bigskip
+    \hspace{4.75cm}
+    \includegraphics[width=2cm]{graphics/OCAD_Logo.png}
+
+    \end{beamercolorbox}
+  \vfill
+}
+
+% Normal page background
+\setbeamertemplate{background}{
+%\iffalse % block comment out
+  \begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=orange] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=black] (0,2) rectangle (\the\paperwidth,\the\paperheight);
+  %\fill[color=orange] (0,0) rectangle(2.95,1.9);
+  %\fill[color=blue!50!cyan!80] (3.05,0) rectangle(\the\paperwidth,1.9);
+  \ifnum\thepage>1\relax%
+   \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+   \fi
+  \end{tikzpicture}
+  %\fi
+}
+
+\setbeamertemplate{items}[square]
+\setbeamertemplate{sections/subsections in toc}[square]
+
+\mode
+<all>

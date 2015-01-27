@@ -1,0 +1,100 @@
+digraph G { node [shape="circle"]; a_1 -> a_2 -> a_3 -> a_4 -> a_1; } \end {dot2tex} \end {tikzpicture} \end {beamer@frameslide}\ifbeamer@twoscreenstext \beamer@dosecondscreennow {{Graphs} \begin {tikzpicture} \begin {dot2tex}[neato,options=-tmath] digraph G { node [shape="circle"]; a_1 -> a_2 -> a_3 -> a_4 -> a_1; } \end {dot2tex} \end {tikzpicture} }\fi \ifbeamer@anotherslide \advance \beamer@slideinframe by 1\relax \relax \expandafter \iterate \fi \let \iterate \relax \beamer@writeslidentry \beamer@reseteecodes 
+
+\begin{frame}{Complex Patterns and Generating Mechanisms}
+\begin{block}{Question}Do patterns that look complex or organic usually involve simpler, lower-level interactions? [like ants on a beach / flocking birds]
+\end{block}
+
+\begin{block}{Question}Does Visual Analytics study emergent, organic patterns, or the simpler behaviours that may have created them?
+\end{block}
+\end{frame}
+
+\begin{frame}{Collaborative Design as a type of Distributed Activity}
+\bigskip
+
+Why do people collaborate in design?
+\begin{itemize}
+\item Design problems may be too difficult for single designers
+\item Participation required from diverse stakeholders
+\item Demands for a range of technical expertise
+\item Need for diversity of perspective
+\item Requirements for local participation; local knowledge
+\end{itemize}
+\bigskip
+In order to be able to solve most complex design problems, you need \emph{many minds}.
+\end{frame}
+
+\begin{frame}{Collaborative design has Centralized and Distributed aspects}
+Centralized aspects
+\begin{itemize}
+\item Strong design concepts
+\item Team identity; common purpose; common ground
+\item Global attributes of the completed artifact
+\item Total cost
+\end{itemize}
+\bigskip
+\pause
+Distributed aspects
+\begin{itemize}
+\item Multiple agents, multiple expertise, different points of view
+\item Stakeholders` opinions and experiences
+\item Proprietary information
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example: Centralized Design of Cities}
+\begin{figure}
+  %\begin{center}
+  \includegraphics[width=3.5cm]{images/leCorb01.jpg}
+    \includegraphics[width=7cm]{images/city-grids.jpg}
+  \caption{Centralized and Distributed City Planning}
+  \label{fig:centralizedCity}
+ % \end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Example: Distributed Design of Cities}
+\begin{figure}
+  \begin{center}
+  \includegraphics[width=8cm]{images/flocking01.jpg}
+  \caption{Distributed City}
+  \label{fig:distributedCity}
+  \end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Coordination Theory and Distributed AI}
+Three reasons why the actions of multiple agents need to be coordinated: \citep{jennings1996coordination}
+\begin{enumerate}
+\item because there are dependencies between agents' actions
+\item because there is a need to meet global constraints, and
+\item because no one individual has sufficient competence,
+resources, or information to solve the entire problem.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Flocking Rules for Collaborative Designers?}
+These might be appropriate rules for designers working together in collaborative teams:
+\begin{enumerate}
+\item Separation: avoid crowding your collaborators (let them do their jobs)
+\item Alignment: steer towards average heading of your design collaborators (pay attention to where others are going)
+\item Cohesion: steer towards average position of your design collaborators (don`t go too far astray from your collaborators)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Conclusions}
+Sources of Complexity
+\begin{itemize}
+\item To understand complexity you often have to analyze simpler behaviours that generate this complexity
+\item Otherwise you won`t understand the source of the complexity
+\item Don't assume that order always comes from some `higher power`
+\end{itemize}
+\end{frame}
+
+
+%\begin{frame}{Visual Analytics}
+%\begin{block}{Hypothesis}Visual Analytics can be approached from both a visual and an analytical perspective
+%\end{block}
+% \begin{itemize}
+% \item Both approaches are necessary to achieve good results
+% \item Do the results function well and are they visually compelling?
+% \end{itemize
