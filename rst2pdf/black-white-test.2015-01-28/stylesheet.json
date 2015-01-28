@@ -1,0 +1,83 @@
+{
+    "pageSetup" : {
+        "firstTemplate": "whitePage",
+        "width": "11in",
+        "height": "8.5in",
+        "margin-top": "1cm",
+        "margin-bottom": "1cm",
+        "margin-left": "1cm",
+        "margin-right": "1cm",
+        "spacing-header": "1cm",
+        "spacing-footer": "1cm"
+        
+    },
+
+    "pageTemplates" : {
+        "blackPage": {
+            "frames": [
+                ["0cm", "0cm", "100%", "100%"]
+            ],
+            "showHeader": false,
+            "showFooter": false,
+            "background": "images/blackLetter.png"
+        },
+        "whitePage": {
+            "frames": [
+                ["0cm", "0cm", "100%", "100%"]
+            ],
+            "showHeader": false,
+            "showFooter": false
+        }
+    },
+
+    "fontsAlias" : {
+        "stdFont": "Arial Narrow",
+        "stdBold": "Arial Unicode",
+        "stdItalic": "Arial Narrow Italic",
+        "stdBoldItalic": "Arial Narrow Bold Italic",
+        "stdMono": "Arial Unicode"
+    },
+
+    "styles": [
+        ["normal" , {
+        "fontSize": 14,
+        "alignment": "center"
+        }],
+
+        ["heading1-white" , {
+        "fontSize": 100,
+        "textColor": "white",
+        "alignment": "center"
+        }],
+
+        ["heading1-black" , {
+        "fontSize": 100,
+        "textColor": "black",
+        "alignment": "center"
+        }],
+
+        ["whitebreak" , {
+        "fontSize": 24,
+        "spaceAfter": 16,
+        "textColor": "white"
+        }],
+
+        ["title" , {
+        "fontSize": 60,
+        "spaceBefore": 25,
+        "spaceAfter": 46,
+        "alignment": "center",
+        "textColor": "red"
+        }]
+     
+    ]
+}
+
+
+
+
+
+
+
+
+

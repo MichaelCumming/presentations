@@ -1,0 +1,24 @@
+{"pageSetup": {
+    "width": "11in",
+    "height": "8.5in",
+    "margin-top": "4cm",
+    "margin-bottom": "1cm",
+    "margin-left": "3cm",
+    "margin-right": "3cm",
+    "spacing-header": "5mm",
+    "spacing-footer": "5mm",
+    "firstTemplate": "cutePage"
+    }
+}
+
+["heading1" , {
+    "parent": "normal",
+    "fontName": "Tuffy_Bold",
+    "fontSize": 18,
+    "keepWithNext": true,
+    "spaceAfter": 6
+    }
+]
+
+
+

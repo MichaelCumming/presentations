@@ -2,6 +2,7 @@
 
 	Visual_Analytics_Lab | Michael Cumming | 2015-01-27 . . . ###Page### / ###Total###
 
+
 ==========================================================
 Haptic Pattern Representation Using Music Technologies
 ==========================================================
