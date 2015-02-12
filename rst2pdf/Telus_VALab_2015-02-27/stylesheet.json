@@ -1,0 +1,145 @@
+{
+    "pageSetup" : {
+        "firstTemplate": "coverPage",
+        "width": "11in",
+        "height": "8.5in",
+        "margin-top": "1cm",
+        "margin-bottom": "1cm",
+        "margin-left": "3cm",
+        "margin-right": "3cm",
+        "spacing-header": "2cm",
+        "spacing-footer": "1cm" 
+    },
+
+    "pageTemplates" : {
+        "justFooter": {
+            "frames": [
+                ["0cm", "0cm", "100%", "100%"]
+            ],
+            "showHeader" : false,
+            "showFooter" : true
+        },
+        "lastPage": {
+            "frames": [
+                ["2.2cm", "0cm", "100%", "85%"]
+            ],
+            "showHeader": true,
+            "showFooter": false
+        },
+        "blackPage": {
+            "frames": [
+                ["0cm", "0cm", "100%", "100%"]
+            ],
+            "showHeader": false,
+            "showFooter": false,
+            "background": "images/blackLetter.png"
+        }
+    },
+
+    "fontsAlias" : {
+        "stdFont": "Avenir",
+        "stdBold": "Helvetica-Bold",
+        "stdItalic": "Avenir",
+        "stdBoldItalic": "Avenir",
+        "stdMono": "Avenir"
+    },
+
+    "styles": [
+
+        ["base" , {
+            "kerning": "true",
+            "alignment": "left"
+        }],
+
+         ["bodytext", {  
+            "fontSize": "100%",
+            "alignment": "left"
+        }],
+
+        ["normal" , {
+            "fontSize": 22,
+            "alignment": "left"
+        }],
+
+        ["title", {
+            "fontSize": "180%",
+            "font": "stdBold",
+            "alignment": "left",
+            "textColor": "red",
+            "spaceAfter": 18
+        }],
+
+        ["subtitle", {
+            "parent": "heading",
+            "font": "stdFont",
+            "fontSize": "110%",
+            "spaceAfter": 60
+        }],
+
+        ["heading", {
+            "parent": "normal",
+            "font": "stdBold",
+            "keepWithNext": true,
+            "spaceBefore": 12,
+            "spaceAfter": 6
+        }],
+
+        ["heading1", {
+            "parent": "heading",
+            "fontSize": "160%"
+        }],
+
+        ["heading2", {
+            "parent": "heading",
+            "font": "stdFont",
+            "spaceBefore": 24,
+            "fontSize": "110%",
+            "textColor": "666666"
+        }],
+
+        ["titlecentered" , {
+            "fontSize": 42,
+            "spaceBefore": 25,
+            "spaceAfter": 46,
+            "alignment": "center",
+            "textColor": "red"
+        }],
+
+        ["bullet-list-smaller" , {
+            "parent": "bodytext",   
+            "fontSize": "100%"
+        }],
+
+        ["whitebreak" , {
+            "fontSize": 24,
+            "spaceAfter": 24,
+            "textColor": "white"
+        }],
+
+        ["header", {
+            "parent": "normal",
+            "fontSize": "75%",
+            "font": "stdMono",
+            "alignment": "center",
+            "textColor": "black"
+        }],
+
+        ["footer", {
+            "parent": "normal",
+            "fontSize": "65%",
+            "font-weight": "300",
+            "font": "stdFont",
+            "textColor": "888888"
+        }]
+
+    ]
+}
+
+
+
+
+
+
+
+
+
