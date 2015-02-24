@@ -1,0 +1,19 @@
+sample-UML-swimlane-waterfall
+
+@startuml
+
+|#White|Management|
+start
+:establish goals;
+
+|#AntiqueWhite|DataGroup|
+:assemble data;
+
+|#White|VisualizationGroup|
+:apply visual encodings;
+
+|#AntiqueWhite|AnalyticsGroup|
+:create hypotheses;
+stop
+
+@enduml

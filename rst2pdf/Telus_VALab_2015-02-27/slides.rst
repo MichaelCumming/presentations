@@ -1,37 +1,29 @@
-==================================================
-Visual Analytics and Research
-==================================================
+Visual Analytics and collaborative design processes
+===========================================================================
 
 .. class::
 	heading2
-
-What are good research questions in VA?
-
-.. class::
-	heading2
-	
-How do you build knowledge?
-
-.. class:: whitebreak
-	
-break
-
-
-Michael Cumming, Ph.D. | mcumming@ocadu.ca
 
 Visual Analytics Lab | 2015-02-24
 
+.. class:: whitebreak
+	
+	break
+
+Michael Cumming, Ph.D.
+
+Post-Doctoral Fellow, OCAD University
+
+mcumming@ocadu.ca
 
 .. class:: whitebreak
 	
-break
+	break
 
 .. image::
 	images/OCAD_Logo.png
 	:scale: 20%
 	:align: left
-
-
 
 .. footer::
 
@@ -42,226 +34,159 @@ break
     PageBreak justFooter
 
 
-Definition of domain 
+Summary
 --------------------------------------------------
 
-Is Visual Analytics
-..................................................
+- The interdisciplinary nature of Visual Analytics
+
+- Aspects of:
+
+	- Interdisciplinary collaboration
+
+	- Iteration
+
+
+
+Visual Analytics, definition
+--------------------------------------------------
+
+*Visual Analytics (VA) is the [young] science of analytical reasoning facilitated by interactive visual interfaces.*
+
+	`(Thomas & Cook, 2006)`_ 
+
+.. class:: whitebreak
 	
-- a design process?
+	break
+
+Is it:
+
+- a design process (within organizations)?
 - an analytical process?
 - an artistic, or visualization, process?
+- an organizational process designed to support decision-making?
 
-.. class:: whitebreak
+
+VA is inherently interdisciplinary
+--------------------------------------------------
+
+- VA requires programmers, database experts, designers, analysts, artists, managers, etc.
+- Typically, these cultures are quite different
+- People need to learn to collaborate within organizations (with minimization of 'silos')
+
+	`(Heer & Agrawala, 2008)`_
+
+
+VA: similarities to collaborative design processes
+-----------------------------------------------------
+
+- Normally iterative
 	
-	break
+	`(Schön, 1983)`_
 
-Obviously, all three
-..................................................
+- Sets of expertise required to solve complex problems
+- Need to build 'common ground' to enable communication
 
-- Visual Analytics is inherently interdisciplinary
-- Therefore, you'll need designers, analysts, artists
+	`(Clark, 1996)`_
+
+- Use of 'boundary objects' between disciplines
+
+	`(Bowker & Star, 2000)`_
 
 
-
-Some Ideas
+Design iteration
 --------------------------------------------------
 
-Research needs questions
-...............................................................
+- Most design problems are too difficult to solve, or make sense of, without iteration
 
-- Research depends on interesting (and well-informed) questions
-- A good question is a compact formulation of the current state of knowledge
-- Good questions are surprisingly difficult
-
-
-In design, information is necessary, but insufficient
-......................................................
-
-- Design is an information-rich field, yet more information does not necessarily mean better design
-
-
-Good research questions?
---------------------------------------------------
-
-What don't you know?
-.........................................................
-
-What are you trying to find out?
-..................................................
-
-
-Research Questions MGDS-PET Project, OCAD 2014-15
---------------------------------------------------
-
-- What sorts of information can be transmitted using wearable devices?
-- Is this information symbolic or it is kinesthetic?
-- Can these devices do something, which is difficult to do with other means?
-
-
-Research Questions: Musical notation for wearable devices
------------------------------------------------------------
-
-- What is the easiest way to author patterns for these devices?
-- Is musical notation an efficient way of authoring patterns?
-- Can types of vibro-compositions align with important points in transmedia narratives?
-
-	- For example:
-	- if arrays are 2D and circular, should music also be '2D'?
-
-
-
-Research Questions: Ambitious City
---------------------------------------------------
-
-- If you ask the right questions on urban design would this inspire more inventive urban design discourse?
-
-
-Wrist-wearables for transmedia gaming
---------------------------------------------------
-
-Vibrotactile arrays are a new type of component for wearables
-
-- They can be placed on the wrist, or elsewhere on the body
-- For non-disruptive notification and tactile entertainment
+	`(Schön, 1983)`_  `(Bucciarelli, 1994)`_
 
 .. class:: whitebreak
 	
 	break
 
 .. image::
-	images/bracelet-02.png
-	:width: 32%
-	:scale: 75%
-	:align: left
+	images/spiral.png
+	:alt: spiral design iteration
+	:scale: 68%
+	:align: center
+
+
+Waterfall model
+--------------------------------------------------
+
+- Waterfall models: only possible with simple, routine design problems
 
 .. class:: whitebreak
 	
 	break
-
-.. figure::
-	images/P1130894.jpg
-	:width: 50%
-	:scale: 100%
-	:align: center
-
-	3D printed band for an array of vibrating motors.
-
-
-
-Use Cases for the Bracelet
---------------------------------------------------
-
-- Interface with Time Tremor mobile app
-- Interpret wrist gestures of child player
-- Notify player when treasures are earned
-- Offer a variety of vibrotactile clues related to game narrative
-
-.. class:: whitebreak
-	
-	break
-	
-.. figure::
-	images/timeTremorsApp.jpeg
-	:scale: 50%
-	:width: 85%
-	:align: center
-
-	Time Tremor app for the AGO, by Xenophile Media.
-
-
-Music Notation
---------------------------------------------------
-
-A highly evolved and standardized graphical language
-
-- Time & duration represented horizontally
-- Pitch normally represented vertically
-- More than one part possible on one staff
-- More staves can be added for additional parts
-
-.. class:: whitebreak
-	
-	break
-
-.. figure::
-	images/arrowsMoving-00.pdf
-	:scale: 100%
-	:width: 85%
-	:align: center
-
-	Output from Lilypond software.
-
-
-
-Material Explorations
---------------------------------------------------
-
-.. figure::
-	images/hudsonBand.png
-	:width: 75%
-	:align: center
-
-	Early felt bracelet with buttons and vibe motors.
-
-.. figure::
-	images/P1130396.RW2.jpg
-	:width: 75%
-	:align: center
-
-	Early rubber bracelet with vibe motors.
-
-.. figure::
-	images/P1130894.jpg
-	:width: 75%
-	:align: center
-
-	Early 3D printed bracelet with vibe motors.
-
-.. figure::
-	images/P1130616.jpg
-	:width: 75%
-	:align: center
-
-	3D printed meander band 1.
-
-.. figure::
-	images/P1130620.jpg
-	:width: 75%
-	:align: center
-
-	3D printed meander band 2.
-
-.. figure::
-	images/P1130826.JPG
-	:width: 75%
-	:align: center
-
-	Molded resin bead 1.
-
-.. figure::
-	images/P1130854.JPG
-	:width: 75%
-	:align: center
-
-	Molded resin bead 2.
-
-
-Notation Experiment 1
---------------------------------------------------
-
-Single Vibe Motor
 
 .. image::
-	images/postertMusic1.pdf
-	:width: 85%
+	diagrams/swimlaneUML-waterfall.png
+	:alt: swimlane interaction diagram 1
+	:scale: 250%
 	:align: center
 
-- Time = horizontal axis
-- Rhythmic information as per standard musical notation
-- Vertical position does not vary
-- Information is not very dense (single line score would suffice)
+More realistic
+--------------------------------------------------
 
+.. image::
+	diagrams/swimlaneUML-complex.png
+	:alt: swimlane interaction diagram 2
+	:scale: 150%
+	:align: center
+
+Research questions
+--------------------------------------------------
+
+- How can interdisciplinary VA teams best work together?
+- How can organizations facilitate communication between disciplines?
+- Where would these teams fit into existing organizational structures?
+
+
+
+References
+--------------------------------------------------
+
+.. class::
+	reference
+
+	.. _(Bowker & Star, 2000):
+
+	G. C. Bowker and S. L. Star. 
+	"Sorting things out: Classification and its consequences". 
+	MIT press,    2000. 
+
+	.. _(Bucciarelli, 1994):
+	   
+	L. L. Bucciarelli. 
+	"Designing engineers". 
+	MIT press,    1994. 
+
+	.. _(Clark, 1996):
+
+	H. H. Clark. 
+	"Using language". 
+	Cambridge University Press,    1996. 
+
+	.. _(Heer & Agrawala, 2008):
+
+	J. Heer and M. Agrawala. 
+	"Design considerations for collaborative visual analytics". 
+	In *Information visualization*,    volume 7 (no. 1)    p49 -- 62. 
+	SAGE Publications,    2008. 
+
+	.. _(Schön, 1983):
+
+	D. A. Schön. 
+	"The reflective practitioner: How professionals think in action". 
+	Basic books,    1983. 
+
+	.. _(Thomas & Cook, 2006):
+
+	J. J. Thomas and K. A. Cook. 
+	"A visual analytics agenda". 
+	In *Computer Graphics and Applications, IEEE*,    volume 26 (no. 1)    p10 -- 13. 
+	IEEE,    2006. 
 
 
 Thanks for your attention!
@@ -269,7 +194,7 @@ Thanks for your attention!
 
 Michael Cumming | mcumming@ocadu.ca
 
-OCAD University, Toronto, Canada
+OCAD University, Toronto, Canada 
 
 .. class:: whitebreak
 	
@@ -285,10 +210,23 @@ OCAD University, Toronto, Canada
 	:scale: 20%
 	:align: left
 
+	   
 
-.. raw:: pdf
 
-    PageBreak blackPage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

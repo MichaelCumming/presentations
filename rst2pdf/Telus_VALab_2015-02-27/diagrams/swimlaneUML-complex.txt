@@ -1,0 +1,38 @@
+sample-UML-swimlane-1
+
+@startuml
+
+|#White|Management|
+start
+:assemble team;
+:establish goals;
+
+|#AntiqueWhite|DataGroup|
+:assemble data;
+:clean data;
+
+|#White|VisualizationGroup|
+:select data sources;
+:apply visual encoding;
+
+|Management|
+:review visualizations;
+
+|#AntiqueWhite|AnalyticsGroup|
+:create hypotheses;
+:summarize;
+
+|Management|
+:review summaries;
+:pick hypothesis;
+
+|DataGroup|
+:assemble data;
+
+|AnalyticsGroup|
+:review;
+:etc;
+
+stop
+
+@enduml
