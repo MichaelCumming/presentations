@@ -1,8 +1,9 @@
 AUTHOR=Michael Cumming
+INITIALS=MC
 PRESENTATION-VENUE=Telus_VisualAnalyticsLab
 DATE-OF-PRESENTATION=2015-02-24
 #-----------------------------------------------------------------------#
-FILENAME="$(PRESENTATION-VENUE)_$(DATE-OF-PRESENTATION)"
+FILENAME="$(INITIALS)_$(PRESENTATION-VENUE)_$(DATE-OF-PRESENTATION)"
 # footer set in rst content instead
 FOOTER="$(PRESENTATION-VENUE) | $(AUTHOR) | $(DATE-OF-PRESENTATION)"
 

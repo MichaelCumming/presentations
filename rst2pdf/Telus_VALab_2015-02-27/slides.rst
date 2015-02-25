@@ -1,4 +1,5 @@
-Visual Analytics and collaborative design processes
+
+Visual Analytics and Interdisciplinary Teams
 ===========================================================================
 
 .. class::
@@ -22,12 +23,12 @@ mcumming@ocadu.ca
 
 .. image::
 	images/OCAD_Logo.png
-	:scale: 20%
+	:scale: 30%
 	:align: left
 
 .. footer::
 
-	Visual_Analytics_Lab | Michael Cumming | 2015-02-24 . . . . . ###Page### / ###Total###
+	Visual_Analytics_Lab | 2015-02-24 . . . . . ###Page### / ###Total###
 
 .. raw:: pdf
 
@@ -37,20 +38,16 @@ mcumming@ocadu.ca
 Summary
 --------------------------------------------------
 
-- The interdisciplinary nature of Visual Analytics
-
-- Aspects of:
-
-	- Interdisciplinary collaboration
-
-	- Iteration
+- Interdisciplinary nature of Visual Analytics
+- Interdisciplinary teams
+- Collaborative design processes
 
 
 
 Visual Analytics, definition
 --------------------------------------------------
 
-*Visual Analytics (VA) is the [young] science of analytical reasoning facilitated by interactive visual interfaces.*
+The science of analytical reasoning facilitated by interactive visual interfaces.
 
 	`(Thomas & Cook, 2006)`_ 
 
@@ -58,7 +55,10 @@ Visual Analytics, definition
 	
 	break
 
-Is it:
+.. class::
+	heading2
+
+	Is it:
 
 - a design process (within organizations)?
 - an analytical process?
@@ -70,7 +70,7 @@ VA is inherently interdisciplinary
 --------------------------------------------------
 
 - VA requires programmers, database experts, designers, analysts, artists, managers, etc.
-- Typically, these cultures are quite different
+- Typically, communities of practice to which VA team members belong may be quite different
 - People need to learn to collaborate within organizations (with minimization of 'silos')
 
 	`(Heer & Agrawala, 2008)`_
@@ -79,11 +79,13 @@ VA is inherently interdisciplinary
 VA: similarities to collaborative design processes
 -----------------------------------------------------
 
-- Normally iterative
+- Many sets of expertise required to solve complex problems
+- Many possible solutions
+- Action and reflection cycles
 	
 	`(Schön, 1983)`_
 
-- Sets of expertise required to solve complex problems
+
 - Need to build 'common ground' to enable communication
 
 	`(Clark, 1996)`_
@@ -93,10 +95,32 @@ VA: similarities to collaborative design processes
 	`(Bowker & Star, 2000)`_
 
 
+Shared objects
+--------------------------------------------------
+
+.. class:: whitebreak
+	
+	break
+
+.. image::
+	images/P1140028.JPG
+	:alt: infinity band 1
+	:scale: 300%
+	:align: center
+
+.. image::
+	images/P1140030-003.JPG
+	:alt: infinity band 1
+	:scale: 150%
+	:align: center
+
+
+
 Design iteration
 --------------------------------------------------
 
 - Most design problems are too difficult to solve, or make sense of, without iteration
+- Problems to be solved may not be clear
 
 	`(Schön, 1983)`_  `(Bucciarelli, 1994)`_
 
@@ -107,7 +131,7 @@ Design iteration
 .. image::
 	images/spiral.png
 	:alt: spiral design iteration
-	:scale: 68%
+	:scale: 60%
 	:align: center
 
 
@@ -138,10 +162,10 @@ More realistic
 Research questions
 --------------------------------------------------
 
-- How can interdisciplinary VA teams best work together?
+- How can VA teams be composed so they are sufficiently diverse?
+- How can diverse teams learn to work well together?
+- Where should VA teams fit into existing organizational structures?
 - How can organizations facilitate communication between disciplines?
-- Where would these teams fit into existing organizational structures?
-
 
 
 References
@@ -189,8 +213,10 @@ References
 	IEEE,    2006. 
 
 
-Thanks for your attention!
----------------------------
+.. raw:: pdf
+
+    PageBreak justFooter
+
 
 Michael Cumming | mcumming@ocadu.ca
 
@@ -207,7 +233,7 @@ OCAD University, Toronto, Canada
 
 .. image::
 	images/OCAD_Logo.png
-	:scale: 20%
+	:scale: 30%
 	:align: left
 
 	   
