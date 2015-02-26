@@ -3,8 +3,8 @@
         "firstTemplate": "whitePage",
         "width": "11in",
         "height": "8.5in",
-        "margin-top": "1cm",
-        "margin-bottom": "1cm",
+        "margin-top": "2cm",
+        "margin-bottom": "2cm",
         "margin-left": "1cm",
         "margin-right": "1cm",
         "spacing-header": "1cm",
@@ -26,7 +26,8 @@
                 ["0cm", "0cm", "100%", "100%"]
             ],
             "showHeader": false,
-            "showFooter": false
+            "showFooter": false,
+            "blackground": "#grey"
         }
     },
 
@@ -40,18 +41,18 @@
 
     "styles": [
         ["normal" , {
-        "fontSize": 14,
-        "alignment": "center"
+        "fontSize": 36,
+        "alignment": "left"
         }],
 
         ["heading1-white" , {
-        "fontSize": 100,
+        "fontSize": 160,
         "textColor": "white",
         "alignment": "center"
         }],
 
         ["heading1-black" , {
-        "fontSize": 100,
+        "fontSize": 80,
         "textColor": "black",
         "alignment": "center"
         }],
